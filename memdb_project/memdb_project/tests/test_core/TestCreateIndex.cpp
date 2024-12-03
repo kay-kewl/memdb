@@ -59,7 +59,7 @@ TEST(CreateIndexTest, UnorderedIndexAcceleratesSelectQueries) {
     memdb::core::ParsedQuery pq_create = parser.parse(create_table_query);
     db.create_table(pq_create.table_name, pq_create.columns);
 
-    const int num_records = 1000;
+    const int num_records = 10000;
     for (int i = 1; i <= num_records; ++i) {
         std::string category = (i % 2 == 0) ? "Electronics" : "Furniture";
         std::string in_stock = (i % 3 == 0) ? "false" : "true";
