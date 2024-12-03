@@ -18,7 +18,7 @@ enum class TokenType {
     EndOfInput
 };
 
-} // namespace core
-} // namespace memdb
+} 
+} 
 
 #endif // MEMDB_CORE_ENUMS_TOKENTYPE_H
