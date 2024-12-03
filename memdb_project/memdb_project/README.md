@@ -16,3 +16,7 @@ cmake ..
 make
 ./run_tests
 ```
+= 3. Запустить пример использования
+```
+./example_basic_usage
+```
