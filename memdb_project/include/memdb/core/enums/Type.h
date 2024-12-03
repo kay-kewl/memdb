@@ -12,7 +12,7 @@ enum class Type {
     Unknown
 };
 
-} // namespace core
-} // namespace memdb
+} 
+} 
 
 #endif // MEMDB_CORE_ENUMS_TYPE_H
