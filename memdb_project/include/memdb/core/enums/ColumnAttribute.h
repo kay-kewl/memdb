@@ -10,7 +10,7 @@ enum class ColumnAttribute {
     Key
 };
 
-} // namespace core
-} // namespace memdb
+}
+}
 
 #endif // MEMDB_CORE_ENUMS_COLUMNATTRIBUTE_H
